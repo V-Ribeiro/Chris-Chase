@@ -1,0 +1,941 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+hr {
+	border-color:#FFFFFF;	
+}
+
+
+
+
+@media (min-width:750px) {
+	.backIndex {
+    	overflow:hidden;
+		
+	}
+	
+}
+
+
+
+	
+#videoFundo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+}
+
+@media (max-width:500px) {
+	
+.backIndex {
+	
+	background-image:url("images/Chrischase_homeimage_1920x1280_entire_JPG.jpg");
+
+	left: 0;
+	top: 0;
+	
+    background-size:auto;	
+	}
+
+	#imagemAbout {
+		display:none;	
+	}
+
+	#tituloMovel {
+		display:none;	
+	}
+}
+
+@media (min-width:500px) {
+	#imagemDesktop {
+		display:none;	
+	}
+}
+
+
+.backIndex {
+	
+	
+    background-image:url("images/Chrischase_homeimage_1920x1280_entire_JPG.jpg");
+
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+
+#instafeed {
+  max-width:100%;
+  margin: auto;
+  display: inline-block;
+ /* flex-wrap: wrap;  */
+}
+
+#instafeed a {
+	display: inline-block;    
+    width: 30%;
+	
+}
+
+#instafeed img {
+	display: inline-block;
+	object-fit:cover;
+    width: 425px;
+	height: 600px;
+}
+      
+@media (max-width:500px) {
+
+
+#instafeed a {
+	display: flex;    
+    width: 50%;
+	margin-left:25%;
+}
+
+#instafeed img {
+	display: flex;
+    object-fit:cover;
+    width: 400px;
+	height: 150px;
+}
+	
+}
+
+@media (min-width:700px) and (max-width:800px) {
+	#instafeed img {
+    width: 170px;
+	height: 250px;
+}
+	
+}
+
+@media (min-width:801px) and (max-width:1400px) {
+	#instafeed img {
+    width: 300px;
+	height: 460px;
+}
+	
+}
+
+
+.fundoAbout {
+
+    background-image:url(images/backgrounds/about.png);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+.fundoStylists {
+
+    background-image:url(images/backgrounds/stylists_2.png);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+.fundoBlog {
+
+    background-image:url(images/backgrounds/blog.jpg);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+.fundoBlogEntry {
+
+    background-image:url(images/backgrounds/single_blog.png);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+.fundoGallery {
+
+    background-image:url(images/backgrounds/gallery.png);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+
+.fundoPromotions {
+
+    background-image:url(images/backgrounds/promotions.jpg);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+.fundoServices {
+
+    background-image:url(images/backgrounds/services_2.jpg);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+.fundoContact {
+
+    background-image:url(images/backgrounds/contact.png);
+	
+
+	
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	z-index:-1000;
+}
+
+
+/* este container e para o rodape */
+
+.container {
+	
+	background-color:#2B2929;
+	max-width: 90%;
+	
+}
+
+/*o container seguinte é para a pagina dos contactos */
+.contactContainer {
+	
+	max-width: 90%;
+	display:inline;
+	margin-left: 5%;
+		
+	/* este text align alinha os botoes */
+	text-align:center;
+	
+}
+
+.blogContent {
+	min-height: 30vh;
+	height: auto;
+	margin:0;
+	padding: 0;
+	border: 0px;
+	box-sizing: content-box;
+	font-family: caviar;
+	color: #FFFFFF;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+
+.blogContent .inner {
+	max-width: 1000px;
+	width: auto;
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+}
+
+@media (max-width:500px) {
+	
+	.blogContent h1 {
+		margin-left: 7%;
+		
+		}
+		
+	.blogContent #subtexto {
+		margin-left: 7%;
+		margin-right: 7%;
+		
+	}
+	
+	
+}
+
+
+/* desnecessária neste ponto */
+.imageBox {
+	
+	background-color:FFFFFF;
+	float:left;
+	
+		
+}
+
+.caixa {
+	
+	font-family: caviar;
+	
+}
+
+
+.signUpContent {
+	
+	color: #FFFFFF;
+	line-height: 1.2;
+	text-align:center;
+	font-family: caviar;
+	margin-top:25%;
+		
+}
+
+
+
+.row h5 {
+	
+	font-size:18px;
+	color: #FFFFFF;
+	line-height: 1.2;
+	font-family: caviar;
+	
+}
+
+input {
+  width: 70%;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+  font-family: caviar;
+  font-weight:500;
+  font-size:16px;
+  margin-bottom: 5%;
+  border-radius: 16px;
+  padding-bottom:1%;
+  padding-top:1%;
+}
+
+
+.textBox {
+	
+	font-size: 21.5px;
+	color: #FFFFFF;
+	line-height: 1.2;
+	text-align:justify;
+	text-justify:auto;
+	font-weight:100;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+#textoAbout {
+	text-align:center;
+	margin-left:25%;
+	margin-right:25%;
+	margin-bottom:5%;
+	position:relative;
+	z-index:50;	
+}
+
+#tituloAbout {
+	margin-bottom: 2%;
+	padding-top:14%;
+	font-size:66px;
+	margin-left:35%;
+	position:relative;
+	z-index:50;
+	
+}
+
+#tituloContact {
+
+	font-family: caviar;
+	color: #FFFFFF;
+	font-size:66px;
+	margin-bottom:10%;
+	margin-top: 25%;
+	
+}
+
+#indexEspaco {
+	margin-bottom: 60%;	
+	
+}
+
+#blogEspaco {
+	padding-top: 5%;	
+}
+
+@media (max-width:500px) {
+
+#textoAbout {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+	
+#tituloAbout {
+	margin-left:10%;
+	font-size:44px;
+	padding-top:35%;
+	margin-bottom:10%;			
+}
+
+#tituloContact {
+
+	font-size:40px;
+	margin-top:35%;
+	
+}
+
+#indexEspaco {
+	margin-bottom: 25%;	
+	
+}
+
+#blogEspaco {
+	padding-top: 35%;	
+}
+
+}
+
+@media (min-width:501px) and (max-width:800px) {
+	
+	#blogEspaco {
+		padding-top: 10%;	
+	}
+	
+} 
+
+
+/*service container é usado para as páginas de serviços  */
+
+#fundoPaginas{
+
+	background-image:url(images/fundoTransparente.png);	
+	
+}
+
+.serviceContainer {
+	
+	max-width: 90%;
+	display:block;
+	margin-left: 5%;
+		
+	/* este text align alinha os botoes */
+	text-align:center;
+}
+
+.serviceContainer img {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+	padding-top: 1%;
+}
+
+#carouselTeste img{
+	display:inline-block;
+	width: 20%;
+	height: 20%;
+	border-radius: 50%;
+    overflow: hidden;	
+}
+
+.serviceContainer service {
+	
+	margin-top: 10px;
+	margin-bottom: 17px;
+	display:block;
+	color:#FFFFFF;
+	font-family: caviar;
+	font-weight:bold;
+	text-align:center;
+	font-size:18px;
+	
+}
+
+.serviceContainer stylist {
+	
+	margin-top: 10px;
+	margin-bottom: 17px;
+	display:block;
+	color:#FFFFFF;
+	font-family: caviar;
+	font-weight:bold;
+	text-align:center;
+	font-size:21px;
+	
+}
+
+.serviceContainer Button {
+    background-color: transparent;
+    border: 0.5px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 1px 20px 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 8px;
+	
+	margin-bottom: 25px;
+}
+
+/*estilo para os estilistas */
+
+.styleContainer {
+	
+	max-width: 90%;
+	display:inline;
+	margin-left: 5%;
+		
+	/* este text align alinha os botoes */
+	text-align:center;
+}
+
+.styleContainer .buttonWrap{
+	position:relative;
+	
+}
+
+.styleContainer .Button{
+	transform: rotateY(180deg);
+}
+
+.styleContainer .buttonWrap .fundoImagem{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	
+	
+}
+
+.styleContainer img {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	
+}
+
+.styleContainer .buttonWrap:hover {
+	opacity:1;
+	transform: rotateY(180deg);
+}
+
+.styleContainer .buttonWrap:hover stylist{
+	opacity:1;
+	transform: rotateY(180deg);
+	
+}
+
+.styleContainer .buttonWrap:hover service{
+	opacity:1;
+	transform: rotateY(180deg);
+	
+}
+
+.styleContainer .buttonWrap:hover Button{
+	opacity:1;
+	transform: rotateY(180deg);
+	
+}
+
+.styleContainer .buttonWrap:hover img{
+	opacity:0.2;
+	
+}
+
+.styleContainer .buttonWrap:hover .fundoImagem{
+	background-color:#000;
+	transform: rotateY(180deg);
+
+}
+
+
+.styleContainer service {
+	
+	position:absolute;
+	width:100%;
+	margin-top: 20%;
+	margin-left: -50%;
+	text-align:center;
+	z-index:1000;
+	color:#FFFFFF;
+	font-family: caviar;
+	font-weight:bold;
+	text-align:center;
+	font-size:21px;
+	opacity: 0;
+	transition: all 0.4s ease 0s;
+	
+}
+
+.styleContainer stylist {
+	position:absolute;
+	width:100px;
+	margin-top: 20%;
+	margin-left: -13%;
+	z-index:1000;
+	color:#FFFFFF;
+	font-family: caviar;
+	font-weight:bold;
+	text-align:center;
+	font-size:21px;
+	opacity: 0;
+	transition: all 0.4s ease 0s;
+
+	
+}
+
+.styleContainer Button { /*dar um id de modo a funcionar para os servicos */
+	position:absolute;
+    background-color: transparent;
+    border: 0.5px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 1px 20px 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: 8px;
+	opacity:0;
+	margin-top: 30%;
+	margin-left: -11%;
+	z-index:1000;
+	transition: all 0.4s ease 0s;
+}
+
+
+#colunasColadas {
+	
+	padding: 0; 
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#colunasEspaco {
+	
+	padding: 0; 
+    padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#tituloStylists {
+	font-family: caviar;
+	color: #FFFFFF;
+	font-size:40px;
+	margin-bottom:10%;
+	margin-top: 35%;
+}
+
+#tituloGallery {
+	font-family: caviar;
+	color: #FFFFFF;
+	font-size:40px;
+	margin-bottom:5%;
+	margin-top: 25%;
+	
+}
+
+#instagramLink {
+	font-family: caviar;
+	color: #FFFFFF;
+	font-size:20px;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+
+@media (max-width:500px) {
+
+#tituloStylists {
+	margin-top: 35%;
+}
+
+#tituloGallery {
+	margin-top: 35%;
+}
+
+#botaoServico {
+	margin-top:45%;		
+}
+	
+}
+
+@media (max-width:768px) {
+
+#tituloStylists {
+	margin-top: 55%;
+}
+
+#tituloGallery {
+	margin-top: 55%;
+}
+	
+}
+
+
+@media (min-width:1000px) and (max-width:1366px) {
+	.styleContainer Button {
+		margin-left: -17%;
+		margin-top: 50%;
+	}
+	
+	.styleContainer stylist {
+		margin-top: 15%;
+		margin-left: -17%;
+	}
+	
+	#fix1366 {
+		margin-left: -20%;	
+	}
+	
+}
+
+
+/* fim de estilo para estilistas */
+
+
+.galleryContainer {
+	
+	max-width: 90%;
+	display:block;
+	margin-left: 5%;
+		
+	/* este text align alinha os botoes */
+	text-align:center;
+}
+
+.galleryContainer img {
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+	padding-top: 1%;
+}
+
+
+
+
+
+/* botoes para a pagina principal */
+
+.serviceContainer #menuButton {
+    background-color: transparent;
+    border: 0px solid #FFFFFF;
+    color: #FFFFFF;
+	width: 220px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+	border-radius: 4px;
+	
+	margin-bottom: 25px;
+	
+	/*transition é importante para a animação */
+	transition: 0.8s;
+	font-family: caviar;
+}
+
+
+.serviceContainer .botaoExterior {
+	width:100%;	
+	height: 75px;
+	display:none;
+	
+}
+
+#imagemLogo {
+	display:none;	
+}
+
+@media (max-width:500px) {
+
+.serviceContainer .botaoExterior {
+	display:block;
+	
+}
+
+#imagemLogo {
+	display:block;
+	margin-top:15%;
+	margin-bottom:10%;
+
+	
+}
+
+#invisivelMovel {
+	display: none;	
+}
+
+
+}
+
+.serviceContainer #menuButton:hover {
+	width: 180px;
+	border: .5px solid #FFFFFF;
+	/*color:#000000;*/
+	font-size: 12px;
+	
+}
+
+
+
+/*acertar o footer em formatos moveis */
+
+@media (max-width:500px) {
+	
+#arranjarFooter {
+	margin-bottom:10%;
+	
+}
+
+}
+
+
+
+
+/*caixa para o rodape */
+.total {
+	color:#FFFFFF;
+	font-family: caviar;
+}
+
+/* cores globais para os links */
+a:link {
+	color: #FFFFFF;
+		
+}
+
+a:visited {
+	color: #FFFFFF;
+		
+}
+
+a:hover {
+	color: #FFFFFF;
+		
+}
+
+a:active{
+	color: #FFFFFF;
+		
+}
+
+
+/* definir a fonte a usar nas diferentes partes do site
+	tem de ser chamada em cada seccao onde quisermos usar */
+
+@font-face {
+	
+	font-family: 'caviar';
+	src: url("fonts/CaviarDreams.ttf");
+		
+		
+}
+
+@font-face {
+	
+	font-family: 'caviarBold';
+	src: url("fonts/CaviarDreams_Bold.ttf");
+		
+		
+}
+
+#teste2 {
+	font-family: caviarBold;
+}
+
+#menuContainer {
+	margin-bottom:15%;	
+}
+
+#espacoContact{
+	margin-top:10%;	
+}
+
+#servicoCor {
+	margin-left: -48%;	
+	
+}
+
+#imagemGaleria {
+	object-fit:cover;
+	width:800px;
+	height:700px;
+	
+}
+
+@media (max-width:500px) {
+	
+	#imagemGaleria {
+
+		width:500px;
+		height:200px;
+	}
+	
+	#espacoGaleria {
+		margin-top: 80px;	
+		
+	}
+	
+	#textoLanding {
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+	
+}
+
+@media (min-width:1000px) and (max-width:1400px) {
+	
+	#espacoContact{
+		margin-top:5%;	
+	}
+
+	
+}
+
+
+#textoLanding {
+	font-family: caviar;
+	text-align:center;
+	color:#ffffff;	
+}
